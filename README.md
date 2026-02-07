@@ -66,9 +66,9 @@ All transformations were done using **Power Query**.
 
 ## 📁 Repository Contents
 
-- `Forbes_Billionaires.pbix` → Power BI dashboard file
-- `dataset.xlsx / csv` → Original dataset
-- `dashboard.png` → Dashboard preview image
+- `Forbes_Billionaires_Ezz.pbix` → Power BI dashboard file
+- `billionaires_2024_Ezz.xlsx / csv` → Original dataset
+- `Dashboard Screenshot.png` → Dashboard preview image
 - `README.md` → Project documentation
 
 ---
