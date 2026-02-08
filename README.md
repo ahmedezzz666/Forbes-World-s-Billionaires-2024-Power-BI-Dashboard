@@ -1,66 +1,52 @@
-# Forbes World’s Billionaires 2024 — Power BI Dashboard
+# Forbes World’s Billionaires 2024 — Advanced Power BI Dashboard
 
-An interactive Power BI dashboard built to analyze the Forbes World’s Billionaires 2024 dataset using data modeling, DAX calculations, and visual storytelling.
+This project presents an advanced analytical Power BI dashboard built on the Forbes World’s Billionaires 2024 dataset.
 
-![Dashboard Preview](dashboard.png)
+The dashboard is designed to separate **population analysis** from **wealth analysis** to produce deeper insights.
 
 ---
 
-## 📊 Project Overview
+## 📊 Project Objective
 
-This dashboard explores:
+Instead of only visualizing the data, this dashboard answers:
 
-- Self-made vs inherited wealth distribution
-- Top business categories producing billionaires
-- Age group distribution
-- Gender classification
-- Country contribution to the billionaire population
-- Total and average net worth
+- Who are the billionaires? (count perspective)
+- Where is the wealth concentrated? (net worth perspective)
+- Which industries create more billionaires vs more wealth?
+- How does distribution vary by gender, age, and wealth source?
 
 ---
 
 ## 🧩 Data Preparation
 
-The dataset required multiple cleaning and transformation steps:
+Performed using Power Query:
 
-- Removing null and inconsistent records
-- Standardizing business categories
-- Creating age group classifications (0–40, 40–60, 60+)
-- Segmenting self-made vs non self-made profiles
-
-All transformations were done using **Power Query**.
+- Removed null and inconsistent records
+- Standardized business categories
+- Created age groups (0–40, 40–60, 60+)
+- Segmented gender and wealth source (self-made / inherited)
 
 ---
 
-## 📈 Key Insights
+## 📈 Key Analytical Insights
 
-- Total billionaires: **2,710**
-- **87%** are Male
-- Billionaires are distributed across **78 countries**
-- Total net worth: **$14.07 Trillion**
-- Average net worth: **$5B**
-- Finance, Technology, and Manufacturing lead in billionaire creation
-- Majority of billionaires fall in the **60+** age group
-
-### 🌍 Top 5 Countries
-| Country | Billionaires |
-|---------|---------------|
-| USA     | 810           |
-| China   | 384           |
-| India   | 200           |
-| Russia  | 120           |
-| Germany | 119           |
+- 2,710 billionaires across 78 countries
+- 87% self-made wealth
+- USA leads in both billionaire count and total wealth
+- Finance creates the most billionaires
+- Technology generates the highest total net worth
+- Majority of billionaires are aged 60+
 
 ---
 
-## 🛠 Tools & Technologies
+## 🛠 Tools & Techniques
 
 - Power BI
-- Powerpoint
+- PowerPoint
 - Power Query
-- DAX
+- DAX Measures
 - Data Modeling
-- Data Visualization & Storytelling
+- Comparative visual analysis (Count vs Net Worth)
 
 ---
 
